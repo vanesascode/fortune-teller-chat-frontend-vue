@@ -1,0 +1,17 @@
+@import './partials/_variables.scss';
+@import './partials/_mixins.scss';
+@import './partials/_breakpoints.scss';
+@import './partials/_functions.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: $primary-color;
+  font-family: 'Inter', sans-serif;
+  font-size: rem(16px);
+}
