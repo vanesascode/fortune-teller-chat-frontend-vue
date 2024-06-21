@@ -6,6 +6,12 @@ Simple chat that answers Yes or No
 
 `npm install -D`
 
+## Tailwind
+
+`npm install -D tailwindcss postcss autoprefixer`
+
+`npx tailwindcss init -p`
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
