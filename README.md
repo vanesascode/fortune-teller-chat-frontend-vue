@@ -1,6 +1,8 @@
-# Fictional Gif Chat built with VUE
+# ✨ YES or NO Fortune Teller Chat built with VUE ✨
 
-Simple chat that answers Yes or No
+Simple chat that answers Yes or No to your questions. Built with VUE and using the `https://yesno.wtf/api`API.
+
+![Screenshot 2024-06-22 at 15 49 52](https://github.com/vanesascode/fortune-teller-chat-frontend-vue/assets/131259155/e2707a4d-4a9f-49fc-9fdd-33e6e88c5f2f)
 
 ## SASS
 
