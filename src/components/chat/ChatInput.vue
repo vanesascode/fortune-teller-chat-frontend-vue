@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white p-4 flex items-center">
+  <div class="bg-white p-4 flex items-center sm:rounded-b-lg">
     <input
       type="text"
       placeholder="Type your message..."
@@ -8,7 +8,7 @@
       @keypress.enter="sendMessage"
     />
     <button
-      class="bg-blue-500 text-white rounded-full p-2 ml-2 hover:bg-blue-600 focus:outline-none"
+      class="bg-black text-white rounded-full p-2 ml-2 hover:bg-blue-900 focus:outline-none"
       @click="sendMessage"
     >
       <svg
