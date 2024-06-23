@@ -1,6 +1,6 @@
-const RANDOM_SECONDS = Math.floor(Math.random() * 5)
-
 export const delay = () =>
   new Promise((resolve) => {
-    setTimeout(resolve, RANDOM_SECONDS * 2000)
+    const RANDOM_SECONDS = Math.floor(Math.random() * 10) * 1000
+    console.log(`Delaying for ${RANDOM_SECONDS}ms`)
+    setTimeout(resolve, RANDOM_SECONDS)
   })
