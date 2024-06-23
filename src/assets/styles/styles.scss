@@ -8,12 +8,17 @@
 @import './partials/_functions.scss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  box-sizing: border-box;
   background-color: black;
   font-family: 'Inter', sans-serif;
   font-size: rem(16px);
@@ -22,4 +27,35 @@ html {
 body {
   background-image: url('https://i.postimg.cc/G2kXxt4y/abstract-blue-fractal-background.jpg');
   background-size: cover;
+}
+
+.chat-view-title {
+  color: $primary-color;
+  text-align: center;
+  font-size: rem(20px);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: $secondary-color;
+  padding: rem(10px);
+  display: inline-block;
+}
+
+.chat-view-title::after,
+.chat-view-title::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: $primary-color;
+  color: aqua;
+  margin: rem(10px) auto;
+}
+
+.input-button {
+  background-color: $secondary-color;
+}
+
+.input-button:hover {
+  background-color: black;
 }
