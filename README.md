@@ -50,6 +50,14 @@ npm run build
 npm run test:unit
 ```
 
+#### JSDOM
+
+JSDOM is often used in unit testing to simulate a browser environment and test the behavior of JavaScript code that interacts with the DOM.
+
+#### @vue/test-utils
+
+Testing utility library for Vue.js. Vue Test Utils (VTU) is a set of utility functions aimed to simplify `testing Vue.js components`. It provides some methods to mount and interact with Vue components in an isolated manner.
+
 ### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
 
 ```sh
