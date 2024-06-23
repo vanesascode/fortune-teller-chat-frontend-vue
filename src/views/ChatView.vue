@@ -1,10 +1,6 @@
 <template>
   <div class="bg-gray-100 h-screen flex flex-col max-w-lg mx-auto rounded-lg">
-    <p
-      class="bg-black p-4 text-white flex justify-center items-center sm:rounded-t-lg sm:text-xl text-center"
-    >
-      <span>Ask <b>Yes</b> or <b>No</b> questions to your fortune-teller:</span>
-    </p>
+    <p class="chat-view-title">Ask <b>Yes</b> or <b>No</b> questions to your fortune-teller:</p>
 
     <ChatMessages :messages="messages" />
 
