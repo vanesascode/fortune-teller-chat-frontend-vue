@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { delay } from '../../src/helpers/delay'
+import { delay } from '@/helpers/delay'
 
 test('delay resolves after the specified delay', async () => {
   //act
