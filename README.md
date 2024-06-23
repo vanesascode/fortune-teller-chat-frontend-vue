@@ -1,4 +1,4 @@
-# ✨ YES or NO Fortune Teller Chat built with VUE ✨
+# 💫 YES or NO Fortune Teller Chat built with VUE
 
 Simple chat that answers Yes or No to your questions. Built with VUE and using the `https://yesno.wtf/api`API.
 
