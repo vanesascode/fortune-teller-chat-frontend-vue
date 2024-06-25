@@ -9,9 +9,9 @@
 </template>
 
 <script setup lang="ts">
-import ChatMessages from '@/components/chat/ChatMessages.vue'
-import ChatInput from '@/components/chat/ChatInput.vue'
-import { useChat } from '@/composables/useChat'
+import ChatMessages from '@/components/chat/ChatMessages.vue';
+import ChatInput from '@/components/chat/ChatInput.vue';
+import { useChat } from '@/composables/useChat';
 
-const { messages, onMessage } = useChat()
+const { messages, onMessage } = useChat();
 </script>
