@@ -10,31 +10,31 @@
 </template>
 
 <script setup lang="ts">
-import type { ChatMessage } from '@/interfaces/chat-message.interface'
-import ChatBubble from './ChatBubble.vue'
-import { ref, onUpdated } from 'vue'
+import type { ChatMessage } from '@/interfaces/chat-message.interface';
+import ChatBubble from './ChatBubble.vue';
+import { ref, onUpdated } from 'vue';
 
 interface Props {
-  messages: ChatMessage[]
+  messages: ChatMessage[];
 }
 
-const { messages } = defineProps<Props>()
+const { messages } = defineProps<Props>();
 
-const chatRef = ref<HTMLDivElement | null>(null)
+const chatRef = ref<HTMLDivElement | null>(null);
 
 // The following code shows that the script is run first and then the component is rendered and the ref is set. Careful with this.
 setTimeout(() => {
-  console.log(chatRef.value)
-}, 1000)
+  console.log(chatRef.value);
+}, 1000);
 
 onUpdated(() => {
   if (chatRef.value) {
     chatRef.value.scrollTo({
       top: chatRef.value.scrollHeight,
-      behavior: 'smooth'
-    })
+      behavior: 'smooth',
+    });
   }
-})
+});
 
 //Supposedly this should work but doesn't:
 
