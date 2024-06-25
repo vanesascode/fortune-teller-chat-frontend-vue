@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ChatBubble tests/> > ChatBubble renders correctly 1`] = `
+"<div class="flex justify-end">
+  <div class="bg-blue-200 text-black p-2 rounded-lg max-w-xs">Hello, World!</div>
+</div>"
+`;
+
+exports[`<ChatBubble tests/> > ChatBubble renders correctly when isMine is false 1`] = `
+"<div class="flex">
+  <div class="bg-gray-300 text-black p-2 rounded-lg max-w-xs"><span class="capitalize">Hello, World!</span><img src="https://image.jpg" class="w-52 h-52 object-cover rounded-md"></div>
+</div>"
+`;
