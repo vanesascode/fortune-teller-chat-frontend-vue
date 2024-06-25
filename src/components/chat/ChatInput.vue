@@ -36,16 +36,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
 
-const message = ref<string>('')
+const message = ref<string>('');
 
-const emits = defineEmits<{ sendMessage: [text: string] }>()
+const emits = defineEmits<{ sendMessage: [text: string] }>();
 
 const sendMessage = () => {
   if (message.value) {
-    emits('sendMessage', message.value)
-    message.value = ''
+    emits('sendMessage', message.value);
+    message.value = '';
   }
-}
+};
 </script>
