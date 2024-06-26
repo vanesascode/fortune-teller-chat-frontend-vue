@@ -4,23 +4,10 @@ import type { YesNoResponse } from '@/interfaces/yes-no.response';
 import { ref } from 'vue';
 
 export const useChat = () => {
-  const messages = ref<ChatMessage[]>([
-    // {
-    //   id: new Date().getTime(),
-    //   isMine: true,
-    //   message: 'Hello, how are you?'
-    // },
-    // {
-    //   id: new Date().getTime() + 1,
-    //   isMine: false,
-    //   message: 'Bad',
-    //   image:
-    //     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'
-    // }
-  ]);
+  const messages = ref<ChatMessage[]>([]);
 
   const getResponse = async () => {
-    const res = await fetch('https://yesno.wtf/api');
+    const res = await fetch(import.meta.env.VITE_API_URL);
     const data = (await res.json()) as YesNoResponse;
     return data;
   };
