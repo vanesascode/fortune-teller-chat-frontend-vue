@@ -32,6 +32,11 @@ Run the command: `npm run coverage`
 
 Test coverage is a measure of how much of your code is executed by your tests. It helps you identify areas of your code that are not being tested, which can lead to bugs or regressions.
 
+## About installation of this project:
+
+This project was created with the command `npm create vue@
+latest` and is powered by VITE v5.3.1
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
