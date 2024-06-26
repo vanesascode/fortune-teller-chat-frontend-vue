@@ -1,6 +1,6 @@
 # 💫 YES or NO Fortune Teller Chat built with VUE
 
-Simple chat that answers Yes or No to your questions. Built with VUE and using the `https://yesno.wtf/api`API.
+Simple chat that answers Yes or No to your questions. Built with VUE and tested with VITEST.
 
 ![Screenshot 2024-06-25 at 16 32 36](https://github.com/vanesascode/fortune-teller-chat-frontend-vue/assets/131259155/f8223856-9321-4e82-a61a-1d9de87d09a5)
 
